@@ -334,7 +334,11 @@ nav a:focus {
 
 @media (min-width: 60rem) {
 	.logo {
-		max-width: 10em;
+		max-width: 18em;
+	}
+
+	.logo-mid-section {
+		max-width: 16em;
 	}
 
 
