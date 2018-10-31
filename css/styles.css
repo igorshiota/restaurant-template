@@ -124,8 +124,9 @@ p {
 }
 
 p.hero {
-	width: 50%;
+	color: #ffffff;
 }
+
 
 .title {
 	font-size: 2.5rem;
@@ -171,6 +172,11 @@ hr{
 	p {
 		font-size: 1.2rem;
 		line-height: 1.6;
+	}
+
+	p.hero {
+		width: 50%;
+		color: #626262;
 	}
 
 	.title {
@@ -299,7 +305,7 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-	color:#cf010c;
+	color: #ebce93;
 }
 
 /*Responsive navbar*/
@@ -308,12 +314,13 @@ nav a:focus {
 .topnav a.icon {
     float: right;
     display: block;
+    color: #ebce93;
   }
 
 .topnav.responsive {
 	position: relative; 
 	background: #ffffff;
-	border: 1px solid #cf010c;
+	border: 1px solid #ebce93;
 }
 .topnav.responsive a.icon {
     position: absolute;
@@ -414,6 +421,7 @@ nav a:focus {
 
 .port-description p {
 	margin: 1em;
+	color: #ffffff;
 }
 
 @media (min-width: 37rem) {
@@ -546,6 +554,7 @@ nav a:focus {
 
 .threecol-description p {
 	margin: 1em;
+	color: #ffffff;
 }
 
 @media (min-width: 37rem) {
