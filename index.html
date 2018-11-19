@@ -10,7 +10,7 @@
 	
 	<!-- below is my own css and js -->
 	<link rel="stylesheet" href="C:\Users\Igor\Desktop\Igor\Java\MyProjects\Portfolio Revamp - PHP - Website (Restaurant Template)\css\styles.css">
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 
 	<!-- below is for the carousel -->
 	<link rel="stylesheet" href="C:\Users\Igor\Desktop\Igor\Java\MyProjects\Portfolio Revamp - PHP - Website 2 (Salon Template 5)\OwlCarousel2-2.3.4\dist\assets\owl.carousel.css">
@@ -25,9 +25,9 @@
 			<ul>
 				<li><a href="#about">About</a></li>
 				<li><a href="#team">Meet the Team</a></li>
-				<li><a href="#services">Services</a></li>
+				<li><a href="#menu">Our Menu</a></li>
 				<li><img src="img/the-mixologist-logo-transp-light.png" alt="The Mixologist" class="logo"></li>
-				<li><a href="#services">Gallery</a></li>
+				<li><a href="#gallery">Gallery</a></li>
 				<li><a href="#contact">Contact</a></li>
 				<li><a href="#" class="fa fa-facebook"></a></li>
 				<li><a href="#" class="fa fa-instagram"></a></li>
@@ -56,7 +56,7 @@
 	<!-- End Main Image -->
 
 	<!-- Two Col -->
-   	<section class="threecol"><a name="threecol"></a> 
+   	<section class="threecol">
 		<!-- portfolio item 01 -->
 		<figure class="threecol-item">
 			<img src="img/service-1-612x300.jpg" alt="threecol item">
@@ -92,8 +92,8 @@
 			</div>
 		
 			<div class="twocol-item twocol-right">
-				<section class="portfolio"><a name="about"></a> 
-					<h1 class="dark-text">Experience The Sublime!</h1>
+				<section class="portfolio"> 
+					<h1 class="dark-text" id="about">Experience The Sublime!</h1>
 					<hr>
 					<p class="dark-text">The Mixologist prepares and serves exquisite dinners to parties from two to 200 at your home, business or private catering event. His blend of French-Mediterranean cuisine draws on a lifetime of skills and the knowledge that all meals, no matter how large or how small, are special events among family and friends</p>
 				</section>	
@@ -110,8 +110,8 @@
 
 		<!-- Prices -->
 		<div class="container">
-			<section class="portfolio"><a name="services"></a> 
-					<h1 class="dark-text">Menu</h1>
+			<section class="portfolio">
+					<h1 class="dark-text" id="menu">Menu</h1>
     				<div id="accordion">
 					  <div class="card">
 					    <div class="card-header" id="headingOne">
@@ -195,8 +195,8 @@
 
 
 	<!-- Gallery -->
-	<section class="portfolio"><a name="portfolio"></a> 
-		<h1 class="dark-text">Some of our Specialties</h1>
+	<section class="portfolio">
+		<h1 class="dark-text" id="gallery">Some of our Specialties</h1>
 		<!-- gallery item 01 -->
 		<figure class="port-item">
 			<img src="img/service-1-612x300.jpg" alt="portfolio item">
@@ -229,23 +229,19 @@
 	<!-- End Gallery -->
 
 	<!-- Contact -->
-	<section class="cta"><a name="contact"></a> 
+	<section class="cta"> 
 		<div class="container">
-			<h1 class="title title-cta">Like what you see?
+			<h1 class="title title-cta" id="contact">Like what you see?
 				<span>Then what are you waiting for?</span>
 			</h1>
-				<form action="">
-					<label for="name"></label>
-					<input type="text" placeholder="Your name"><br>
-					<label for="email"></label>
-					<input type="text" placeholder="Your email"><br>
-					<label for="phone"></label>
-					<input type="text" placeholder="Your phone"><br>
-					<label for="message"></label><br>
-					<textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+				<form action="#">					
+					<input type="text" placeholder="Your name"><br>					
+					<input type="text" placeholder="Your email"><br>					
+					<input type="text" placeholder="Your phone"><br>					
+					<textarea name="#" id="#" cols="30" rows="10" placeholder="Your message"></textarea>
 				</form>
-			<a href="" class="button button-accent">Send Message!</a> <strong>or</strong>
-			<a href="" class="button button-accent">Call Us Now!</a>
+			<a href="#" class="button button-accent">Send Message!</a> <strong>or</strong>
+			<a href="#" class="button button-accent">Call Us Now!</a>
 		</div>
 	</section>
 	<!-- End Contact -->
@@ -280,7 +276,7 @@
 	<!-- Carousel -->
 	<script src="C:\Users\Igor\Desktop\Igor\Java\MyProjects\Portfolio Revamp - PHP - Website 2 (Salon Template 5)\OwlCarousel2-2.3.4\docs\assets\vendors\jquery.min.js"></script>
 	<script src="C:\Users\Igor\Desktop\Igor\Java\MyProjects\Portfolio Revamp - PHP - Website 2 (Salon Template 5)\OwlCarousel2-2.3.4\dist\owl.carousel.js"></script>
-	<script type="text/javascript">
+	<script>
 		$('.owl-carousel').owlCarousel({
 		    loop:true,
 		    margin:10,
